@@ -9,102 +9,65 @@
 <link href="startbootstrap-clean-blog-1.0.3" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="website.css">
 </head>
-
-
-
-
-<nav class="navbar navbar-default fl-navbar " role="navigation">
-  <div class="container">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="/">
-          <img src="/static/images/v2/fl_logo146_30.png" width="146" height="30" alt="Floobits" title="Floobits">
-        </a>
-        
+<!--This is the nav bar-->
+  <nav class="navbar navbar-default fl-navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="container-fluid">
+        <div class="navbar-header">
+           <a href="/">
+            <img class="music-note pull-left" src="http://www2.psd100.com/icon/2013/09/1001/Music-note-symbol-icon-0910105009.png" width="64" height="64" alt="MusicNote" title="MusicNote">
+          </a>
+		  <ul class="nav navbar-nav navbar-right navbar-authed">
+		  <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='website.html';" value="Home" /></li>
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='browse.html';" value="Browse"/></li>
+		  </ul>
+		 
+		
+        </div>
+        <ul class="nav navbar-nav navbar-right navbar-authed">
+  
+          <li class="fl-nav-user-image">
+            <a style="display: inline; padding: 0; margin: 0;" href="/dash">
+              <img class="gravatar" src="https://static-cdn.jtvnw.net/emoticons/v1/70433/2.0" alt="Bob Ross">
+            </a>
+          </li>
+  
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='website.html';" value="Sign Up" /></li>
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='browse.html';" value="Log In"/></li>
+		  <li>
+        </ul>
       </div>
-      <ul class="nav navbar-nav navbar-right navbar-authed">
-  
-    <li class="fl-nav-user-image">
-      <a style="display: inline; padding: 0; margin: 0;" href="/dash">
-        <img class="gravatar" src="https://secure.gravatar.com/avatar/34b82fb9ed56850466cd88414e2601fb?s=100" alt="ryanyz11's Gravatar">
-      </a>
-    </li>
-  
-  <li><a class="fl-nav-link" href="/help">help</a></li>
-  <li><a class="fl-nav-link" href="https://news.floobits.com/">news</a></li>
-</ul>
     </div>
-  </div>
-</nav>
+  </nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--This is the body-->
   <body>
     <div class="nav">
       <div class="container">
-        <ul class="pull-left">
-          <li><input type="button" class="linkButton" onclick="location.href='http://google.com';" value="Home" /></li>
-          <li><a href="#">Browse</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
       </div>
     </div>
-
     <div class="jumbotron">
       <div class="container">
         <h1>Music</h1>
         <p>Find or upload your sheet music to the website!</p>
-       <a href="#">Do that here</a>
+        <a href="#">Do that here</a>
       </div>
     </div> 
 
     <div class="learn-more">
-    <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-      <h3></h3>
-      <p></p>
-      <p><a href="#"></a></p>
-      </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container">
-            <h1 class="text-center">Project updates!</h1>
-            <br>
-            <br>
+	    <div class="container">
+	  	  <div class="row">
+	  	    <div class="col-md-4">
+			     <h3></h3>
+			<p></p>
+			<p><a href="#"></a></p>
+		  </div></div>
+	  </div>
+	</div>
+	
+	<div class="container">
+    <h1 class="text-center">Project updates!</h1>
+    
             <!--<div class="well">
                 <small class="text-muted">9/18/2015</small>
                 <h2>First meeting</h2>
@@ -118,20 +81,37 @@
                     <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
                 </video>
             </div>-->
-            
-
-            
-            
-            <div class="well">
-                <small class="text-muted">10/24/2015</small>
-                <h2>Restarted</h2>
-                <p>
-                Had to reformat everything, added a picture, and structured the header.
-                </p>
-            </div>
-            
-            <br>
-        </div>
-  
+    <div class="well">
+		<small class="text-muted">11/9/2015</small>
+		<h2>Fixed Browse tab</h2>
+		<p>Changed the navbar, and added music.</p>
+    </div>	        
+	<div class="well">
+		<small class="text-muted">11/9/2015</small>
+		<h2>Made stuff look nice</h2>
+		<p>Exactly what the title says. I hope it looks nice</p>
+    </div>		
+    <div class="well">
+      <small class="text-muted">11/4/2015</small>
+      <h2>Header</h2>
+      <p>Redid the header to add depth and make the button interactive</p>
+    </div>  
+    <div class="well">
+      <small class="text-muted">10/24/2015</small>
+      <h2>Restarted</h2>
+      <p>Had to reformat everything, added a picture, and structured the header.</p>
+    </div>
+   </div>
+   <div class="container">
+   <h1 class="text-center">Bob Ross Oooooh das nice</h1>
+   <div class="well stream" style="text-align: center">
+   <small class="text-muted pull-left" id="date">11/9/2015</small>
+   <h2>Best Stream South Korea</h2>
+	<p>Just add a little tree right there, the tree needs a little friend. Beat the devil out of it. Get some titanium HUWITE. This little rascal is the cutest thing I've ever seen!</p>
+	<iframe allowfullscreen="" src="http://player.twitch.tv/?channel=bobross" frameborder="0" scrolling="no" height="378" width="620"></iframe>
+   </div>
+   </div>
+   
+	
   </body>
 </html>
