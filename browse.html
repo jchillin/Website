@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script src="website.js"></script>
+<script src="jquery-1.11.3"></script>
+<title>Sheet Music and Code. lol</title>
+<link rel="shortcut icon" href = "http://www.psdgraphics.com/wp-content/uploads/2010/11/music-note.jpg"/>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="startbootstrap-clean-blog-1.0.3" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="browse.css">
+</head>
+
+ <nav class="navbar navbar-default fl-navbar" role="navigation">
+    <div class="container">
+      <div class="container-fluid">
+        <div class="navbar-header">
+           <a href="/">
+            <img class="music-note pull-left" src="http://www2.psd100.com/icon/2013/09/1001/Music-note-symbol-icon-0910105009.png" width="64" height="64" alt="MusicNote" title="MusicNote">
+          </a>
+		  <ul class="nav navbar-nav navbar-right navbar-authed">
+		  <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='website.html';" value="Home" /></li>
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='browse.html';" value="Browse"/></li>
+		  </ul>
+		 
+		
+        </div>
+        <ul class="nav navbar-nav navbar-right navbar-authed">
+  
+          <li class="fl-nav-user-image">
+            <a style="display: inline; padding: 0; margin: 0;" href="/dash">
+              <img class="gravatar" src="https://static-cdn.jtvnw.net/emoticons/v1/70433/2.0" alt="Bob Ross">
+            </a>
+          </li>
+  
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='website.html';" value="Sign Up" /></li>
+          <li class="fluid-navigation-link"><input type="button" class="linkButton" onclick="location.href='browse.html';" value="Log In"/></li>
+		  <li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<body>
+<div class="jumbotron">
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-xs-4">
+            <h2>Music</h2>
+            <p>Go here to browse through the music</p>
+			<h3>Wish</h3>
+			<img id="wish-playback" src="Music/Wish.png" width="300"></img>
+			<audio controls>
+			<source src="Music/Wish.ogg" type="audio/ogg">
+			<source src="Music/Wish.mp3" type="audio/mpeg">
+			</audio>
+			<form method="get" action="Music/Wish.pdf">
+			<button type="submit" target="_blank" class="btn btn-success">PDF Download</button>
+			</form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
